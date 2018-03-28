@@ -1,0 +1,43 @@
+
+* {
+						margin: 0; 
+						padding: 0; 
+}
+					
+
+img{
+					 
+
+}
+					
+#container {
+				min-width: 100%; 
+
+}
+
+
+#top{ 
+					background-color: crimson; 
+					color: aliceblue; 
+					font-size: 20px; 
+					min-width: 100%; 
+					text-align: center;
+					padding-top: 20px;
+					padding-bottom: 20px;  
+}
+
+
+.button {
+			display: inline-block;  
+			padding: 20px 40px; 
+			background-color: firebrick; 
+			color: aliceblue; 
+			font-size: 20px; 
+			text-align: center; 
+			margin: 10px; 
+			-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	
+
+}
