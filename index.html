@@ -10,12 +10,46 @@
 								<Div id="top">
 
 									<a href="index.html"><div class="button">MOBILE</div></a>
-									<a href="#"><div class="button">TABLET</div></a>
+									<a href="tablet.html"><div class="button">TABLET</div></a>
 									<a href="desktop.html"><div class="button">LARGE DESKTOP</div></a>
 									<a href="desktop_sml.html"><div class="button">SMALL DESKTOP</div></a>
 
 								</Div>
-								<img src="img/mobile.png" alt="test">
+
+								<script>
+									
+									/*function toggleImg() {
+											var imgSRC = document.getElementById("img1").src; 
+
+											if (imgSRC == imgSRC) { 
+													document.getElementById("img1").src = "img/mobilealt.png";
+													 
+											} else {
+
+													document.getElementById("img2").id = "img1";											
+	
+											}
+									}									
+									
+									var img1 = "img/mobile.png";
+									var	img2 = "img/mobilealt.png";
+									var imgPath = document.getElementById('test').src;
+									
+									function change() {
+
+											
+											if (document.getElementById('test').class === "a"){ 
+															imgPath = img2;
+															document.getElementById('test').class = "i2"; 
+											} 
+											else {
+															imgPath = img1;
+											}; 
+									}*/ 
+								</script> 
+
+								<img src="img/mobile.png" id="img1" onclick ="toggleImg();"/>
+
 					</div>
 		</body>
 </html>
